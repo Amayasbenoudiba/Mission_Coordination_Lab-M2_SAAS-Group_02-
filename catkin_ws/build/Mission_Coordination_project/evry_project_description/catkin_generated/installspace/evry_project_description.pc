@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws/install
+
+Name: evry_project_description
+Description: Description of evry_project_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
