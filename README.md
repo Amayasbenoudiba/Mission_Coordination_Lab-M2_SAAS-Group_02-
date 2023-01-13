@@ -58,8 +58,9 @@ https://user-images.githubusercontent.com/78215481/212318451-4cd4a5bf-7640-42a8-
 
 
 
---
+
 **Clone the Project repository**
+--
 In the same terminal, follow the instructions ONE AFTER THE OTHER:
 
 ```
