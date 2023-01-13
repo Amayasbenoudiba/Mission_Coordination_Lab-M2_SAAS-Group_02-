@@ -58,3 +58,20 @@ https://user-images.githubusercontent.com/78215481/212318451-4cd4a5bf-7640-42a8-
 
 
 
+--
+**Clone the Project repository**
+In the same terminal, follow the instructions ONE AFTER THE OTHER:
+
+```
+cd ~/catkin_ws/src && git clone https://github.com/KTBE/Mission_Coordination_project.git
+cd ~/catkin_ws && catkin_make && source ~/catkin_ws/devel/setup.bash
+```
+
+launch Gazeboo
+```
+roslaunch evry_project_description simu_robot.launch
+```
+launch the solution, select the launch file:
+```
+roslaunch evry_project_strategy agent.launch nbr_robot:=3
+```
