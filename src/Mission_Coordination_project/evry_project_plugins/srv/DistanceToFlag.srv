@@ -1,4 +1,0 @@
-geometry_msgs/Pose2D agent_pose
-int64 id_flag
----
-float64 distance
