@@ -30,7 +30,12 @@ https://user-images.githubusercontent.com/78215481/212317681-eda8f829-28d5-4158-
 > The code implements the RobotController class which is responsible for controlling the movement of a single robot in the simulation. The class takes in the name of the robot as an argument and creates an instance of the Robot class, which is used to interface with the robot's hardware and sensor data. The run method is the main control loop for the robot, which handles the timing, motion control, and distance detection.
 > The Kpv and Kpa attributes represent the Proportional gain of the velocity and angle respectively, which are used to control the speed and angle of the robot. The method starts by initializing the goal position for the robot, then it enters a loop that continuously updates the robot's position and calculates the desired angle and velocity to reach the goal, the robot uses Proportional gain control to adjust its speed and angle.
 > The algorithm also handles the case of when the robot is close to the flag, it reduces the speed and stops when it reaches the flag. The run method also includes delay time to ensure that the robots move in a coordinated manner and avoid collisions. The set_speed_angle method is used to control the robot's movement, and the getDistanceToFlag method is used to detect the distance to the flag.
-> 
+
+
+
+https://user-images.githubusercontent.com/78215481/212318714-69ff29cc-9d16-49a1-a41f-aa1d5b0f530b.mp4
+
+
 
 **3. Obstacle Avoidance and Convergence Strategy**
 
