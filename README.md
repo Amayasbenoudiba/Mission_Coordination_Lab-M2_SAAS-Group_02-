@@ -47,3 +47,9 @@ https://user-images.githubusercontent.com/122572260/212318268-cafdcd03-f0b8-4594
 > The strategy implemented is a robust solution for navigating a robot towards a flag while avoiding obstacles. The script utilizes a PID controller to control the robot's speed based on the distance to the flag, which ensures that the robot moves at an appropriate speed towards the flag. Additionally, the script also controls the robot's angle based on the yaw angle, which ensures that the robot stays aligned towards the flag.
 > Obstacle detection is performed using the robot's ultrasonic sensor, and if an obstacle is detected, the robot stops and turns to avoid it. The script also checks if the robot is moving away from the flag, and if so, it turns left to correct its course. If the distance to the flag is less than 2, the robot stops, which ensures that the robot does not overshoot the flag.
 > All this features ensure that the robot is able to reach the flag safely and efficiently, and also makes sure that the robot does not crash into any obstacles.
+
+
+https://user-images.githubusercontent.com/78215481/212318451-4cd4a5bf-7640-42a8-8723-3d47c8f90541.mp4
+
+
+
