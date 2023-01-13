@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+  <arg name="nbr_robot" default="3"/>
+
+  <!--MAIN CODE-->
+  <node pkg="evry_project_strategy" type="agent_PG.py" name="agent_1" output="screen" if="$(eval arg('nbr_robot') > 0)">
+    <param name="robot_name" value="robot_1"/>
+  </node>
+
+  <node pkg="evry_project_strategy" type="agent_PG.py" name="agent_2" output="screen" if="$(eval arg('nbr_robot') > 1)">
+    <param name="robot_name" value="robot_2"/>
+  </node>
+
+  <node pkg="evry_project_strategy" type="agent_PG.py" name="agent_3" output="screen" if="$(eval arg('nbr_robot') > 2)">
+    <param name="robot_name" value="robot_3"/>
+  </node>
+
+</launch>
