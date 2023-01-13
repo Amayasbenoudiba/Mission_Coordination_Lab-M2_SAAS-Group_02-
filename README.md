@@ -20,6 +20,11 @@ This repository contains the solutions for the final project for the Mission Coo
 > The robots are able to detect the distance to the flag and adjust their speed accordingly, they stop when they reach the flags and this solution is open loop which means that we don't take into account the position of the flags while the robots are moving.
 > However, this solution may not be efficient if the position of the flags are changed during the execution of the program.
 
+
+
+https://user-images.githubusercontent.com/78215481/212317681-eda8f829-28d5-4158-97aa-7a68404d10a8.mp4
+
+
 **2. Proportional gain control for motion coordination** 
 
 > The code implements the RobotController class which is responsible for controlling the movement of a single robot in the simulation. The class takes in the name of the robot as an argument and creates an instance of the Robot class, which is used to interface with the robot's hardware and sensor data. The run method is the main control loop for the robot, which handles the timing, motion control, and distance detection.
