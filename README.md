@@ -30,7 +30,12 @@ https://user-images.githubusercontent.com/78215481/212317681-eda8f829-28d5-4158-
 > The code implements the RobotController class which is responsible for controlling the movement of a single robot in the simulation. The class takes in the name of the robot as an argument and creates an instance of the Robot class, which is used to interface with the robot's hardware and sensor data. The run method is the main control loop for the robot, which handles the timing, motion control, and distance detection.
 > The Kpv and Kpa attributes represent the Proportional gain of the velocity and angle respectively, which are used to control the speed and angle of the robot. The method starts by initializing the goal position for the robot, then it enters a loop that continuously updates the robot's position and calculates the desired angle and velocity to reach the goal, the robot uses Proportional gain control to adjust its speed and angle.
 > The algorithm also handles the case of when the robot is close to the flag, it reduces the speed and stops when it reaches the flag. The run method also includes delay time to ensure that the robots move in a coordinated manner and avoid collisions. The set_speed_angle method is used to control the robot's movement, and the getDistanceToFlag method is used to detect the distance to the flag.
-> 
+
+ 
+
+https://user-images.githubusercontent.com/78215481/212318002-9258a5ff-7c49-4654-b748-6a5c1a0c61cf.mp4
+
+
 
 **3. Obstacle Avoidance and Convergence Strategy**
 
@@ -42,3 +47,8 @@ https://user-images.githubusercontent.com/78215481/212317681-eda8f829-28d5-4158-
 > The strategy implemented is a robust solution for navigating a robot towards a flag while avoiding obstacles. The script utilizes a PID controller to control the robot's speed based on the distance to the flag, which ensures that the robot moves at an appropriate speed towards the flag. Additionally, the script also controls the robot's angle based on the yaw angle, which ensures that the robot stays aligned towards the flag.
 > Obstacle detection is performed using the robot's ultrasonic sensor, and if an obstacle is detected, the robot stops and turns to avoid it. The script also checks if the robot is moving away from the flag, and if so, it turns left to correct its course. If the distance to the flag is less than 2, the robot stops, which ensures that the robot does not overshoot the flag.
 > All this features ensure that the robot is able to reach the flag safely and efficiently, and also makes sure that the robot does not crash into any obstacles.
+
+https://user-images.githubusercontent.com/78215481/212318098-2c8bf78c-4a39-4417-ad03-e15d0b943b0a.mp4
+
+
+
